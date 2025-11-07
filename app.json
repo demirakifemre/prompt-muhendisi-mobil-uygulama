@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "prompt-muhendisi-app",
+    "name": "Prompt Mühendisi",
     "slug": "prompt-muhendisi-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "promptmuhendisi",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -30,8 +30,18 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router"
+
+      "expo-router" 
     ],
+    "extra": {
+      
+      "router": {
+        "origin": "./"
+      },
+      "eas": {
+        "projectId": "[BURAYA EAS PROJECT ID'NİZ GELEBİLİR]"
+      }
+    },
     "experiments": {
       "typedRoutes": true
     }
